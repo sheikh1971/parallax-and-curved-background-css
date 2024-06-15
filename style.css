@@ -1,0 +1,77 @@
+
+
+div{
+    height: 200px;
+  width: 100%;
+  background-color: black;
+}
+
+
+
+
+#me{
+    height: 150px;
+    width: 100px;
+    padding: 15px;
+    border-radius: 40%;
+    position: relative;
+    animation: propic 1s 1;
+    animation-direction:alternate-reverse;
+}
+
+#head-div{
+    height: 100px;
+    display: flex;
+    background-image:linear-gradient(#a2fdd9,#53ab8b
+    );
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    width: 100%;
+    
+    
+}
+@keyframes propic{
+    0%   {background: rgb(241, 238, 238); left: 0px; top: 0px;}
+    100%  {background: rgb(234, 234, 234); left: 100%; top: 0px;}
+   
+
+}
+#wave{
+    height: 200px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #ebe8e8ab;
+
+   
+}
+  
+.wave{
+   
+   width: 100%;
+
+   
+}
+/*div 2*/
+#d2img{
+   
+    margin-top: 10px;
+    height: 200px;
+    width: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1{
+    padding-top: 40px;
+    background-image: url('ball.svg');
+  
+        height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+      }
